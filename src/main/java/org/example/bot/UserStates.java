@@ -1,0 +1,12 @@
+package org.example.bot;
+
+public enum UserStates {
+    AWAITING,
+    AWAITING_TASK_NAME,
+    AWAITING_TASK_DISC,
+    AWAITING_TASK_DEADLINES,
+    AWAITING_TASK_CATEGORY,
+    VIEWING_TASKS,
+    EDITING_TASK,
+    ADD_NEW_CATEGORY
+}
